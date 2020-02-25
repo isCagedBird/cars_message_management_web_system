@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+body {
+	min-width: 1090px;
+	width: 100%;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+button,
+input {
+	background: none;
+	outline: none;
+	border: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}

@@ -1,0 +1,58 @@
+body {
+	background: rgb(0, 0, 0);
+}
+
+.box {
+	background: lightgoldenrodyellow;
+	margin: 100px auto 0;
+	width: 500px;
+	box-shadow: 1px 1px 100px rgba(0, 255, 0, 0.8);
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #000;
+	border-radius: 30px;
+}
+
+.box .title,
+.box form .common {
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50px;
+	box-shadow: 1px 1px 25px #0f0 inset;
+}
+
+.box .title {
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.box form .common {
+	color: royalblue;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.box form .middle {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.box .lite {
+	font-size: 18px;
+	font-weight: 100;
+	color: royalblue;
+	margin-bottom: 20px;
+}
+
+#contain form p {
+	width: 300px;
+	margin: 0 auto;
+	color: #f00;
+	font-size: 12px;
+}

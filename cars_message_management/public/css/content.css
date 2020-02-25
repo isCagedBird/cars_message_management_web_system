@@ -1,0 +1,246 @@
+body {
+	background: rgba(0, 0, 0, 1);
+}
+
+#container {
+	width: 100%;
+	color: #FAFAD2;
+	padding-top: 100px;
+	position: relative;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#time-bar {
+	font-size: 16px;
+	font-weight: 100;
+	color: #fff;
+}
+
+#user-bar {
+	color: #f00;
+}
+
+#container .title {
+	position: absolute;
+	box-shadow: 1px 1px 25px #0f0 inset;
+	top: 20px;
+	height: 60px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 60px;
+	border-radius: 50px;
+}
+
+#container .on-left,
+#container .on-right {
+	box-shadow: 1px 1px 50px #0f0 inset;
+}
+
+#container .on-left {
+	width: 18%;
+	float: left;
+}
+
+#container .on-left .same {
+	color: #000;
+	height: 250px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #FAFAD2;
+	border-radius: 20px;
+	position: relative;
+}
+
+#container .on-left .same h1 {
+	padding-top: 20px;
+}
+
+@keyframes frame {
+	0% {
+		box-shadow: 1px 1px 50px #0f0;
+	}
+
+	25% {
+		box-shadow: 1px 1px 50px #f00;
+	}
+
+	50% {
+		box-shadow: 1px 1px 50px #00f;
+	}
+
+	75% {
+		box-shadow: 1px 1px 50px #f00;
+	}
+
+	100% {
+		box-shadow: 1px 1px 50px #0f0;
+	}
+}
+
+@keyframes frame2 {
+	0% {
+		box-shadow: 1px 1px 50px #f00;
+	}
+
+	50% {
+		box-shadow: 1px 1px 25px #0f0;
+	}
+
+	100% {
+		box-shadow: 1px 1px 50px #f00;
+	}
+}
+
+#container .on-left .same .btn {
+	left: 50%;
+	animation: frame 8s infinite;
+	top: 50%;
+}
+
+._btn {
+	animation: frame2 5s infinite;
+}
+
+._btn,
+#container .on-left .same .btn {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	line-height: 25px;
+	position: absolute;
+	margin-left: -25px;
+	margin-top: -25px;
+	background: #fff;
+}
+
+#container .on-left .car-message-management {
+	margin-top: 20px;
+}
+
+#container .on-left .car-user-message-management {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#container .on-left .system {
+	margin-bottom: 20px;
+}
+
+#container .on-right {
+	overflow: auto;
+	height: 830px;
+	width: 80%;
+	float: right;
+}
+
+#change {
+	font-size: 20px;
+	color: #F08080;
+	margin: 20px;
+	background: #FFFFF0;
+	border-radius: 20px;
+	padding: 0 20px;
+}
+
+#change table {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+#change .foot {
+	width: 100%;
+	margin: 0 auto -20px;
+	font-size: 12px;
+	color: #00bfff;
+	font-weight: 200;
+}
+
+#change table .w25 {
+	width: 25%;
+}
+
+#change table .w20 {
+	width: 20%;
+}
+
+#change table .w50 {
+	width: 50%;
+}
+
+#change table .w14 {
+	width: 14%;
+}
+
+#change table td {
+	font-size: 15px;
+}
+
+#change table th,
+#change table td {
+	padding: 10px 5px;
+	box-shadow: 1px 1px 5px #000;
+}
+
+@keyframes frame1 {
+	0% {
+		transform: scale(1.0);
+	}
+
+	50% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(1.0);
+	}
+}
+
+#change table .mm:hover {
+	animation: frame1 2s;
+	background: #fff;
+}
+
+#change .no {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#change table .target_input_,
+#change table .target_input {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#change table .target_input {
+	background: #FF1493;
+	color: #000;
+}
+
+#change table .target_input_ {
+	background: #00BFFF;
+	color: #fff;
+}
+
+#change table .target_input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#change table .target_input::-moz-placeholder {
+	color: #fff;
+}
+
+#change table .target_input:-moz-placeholder {
+	color: #fff;
+}
+
+#change table .target_input:-ms-input-placeholder {
+	color: #fff;
+}
